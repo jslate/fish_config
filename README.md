@@ -1,0 +1,3 @@
+# fish_config
+My own fish shell config, just getting started...
+
