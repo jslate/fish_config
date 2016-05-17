@@ -7,7 +7,7 @@ function fish_prompt
   echo (date "+%m/%d/%y %H:%M:%S")
   if set git_branch (git rev-parse --abbrev-ref HEAD ^ /dev/null)
     set_color red
-    echo "<"$git_branch"> "
+    echo "["$git_branch"]: "
   else
     echo "> "
   end
